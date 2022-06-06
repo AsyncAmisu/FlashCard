@@ -17,7 +17,19 @@ struct WelcomeView: View {
                 .saturation(0.5)
                 .blur(radius: 5)
                 .opacity(0.08)
-            HStack {
+            Label {
+                VStack(alignment: .leading) {
+                    Text("Welcome to")
+                        .font(.headline)
+                        .bold()
+                    Text("FlashCard")
+                        .font(.largeTitle)
+                        .bold()
+                }
+                .foregroundColor(.red)
+                .lineLimit(1)
+                .padding(.horizontal)
+            } icon: {
                 Image(systemName: "table")
                     .resizable()
                     .frame(width: 30, height: 30)
@@ -25,13 +37,8 @@ struct WelcomeView: View {
                     .background(Color(white: 0.9))
                     .clipShape(Circle())
                 .foregroundColor(Color.red)
-                Text("Welcome to FlashCard")
-                    .font(.system(size: 30))
-                    .bold()
-                    .foregroundColor(.red)
-                    .lineLimit(2)
-                    .multilineTextAlignment(.center)
             }
+            .labelStyle(HorizontallyAlignedLabelStyle())
         }
     }
 }

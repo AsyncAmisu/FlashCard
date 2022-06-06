@@ -12,6 +12,7 @@
 		579D4E00284BC70D008E3B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579D4DFF284BC70D008E3B12 /* Assets.xcassets */; };
 		579D4E03284BC70D008E3B12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579D4E02284BC70D008E3B12 /* Preview Assets.xcassets */; };
 		579D4E0C284BE45B008E3B12 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D4E0B284BE45B008E3B12 /* WelcomeView.swift */; };
+		57F3D5D9284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3D5D8284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		579D4DFF284BC70D008E3B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579D4E02284BC70D008E3B12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		579D4E0B284BE45B008E3B12 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		57F3D5D8284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				579D4E0B284BE45B008E3B12 /* WelcomeView.swift */,
+				57F3D5D8284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				579D4DFE284BC70C008E3B12 /* ContentView.swift in Sources */,
 				579D4E0C284BE45B008E3B12 /* WelcomeView.swift in Sources */,
+				57F3D5D9284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				579D4DFC284BC70C008E3B12 /* FlashCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
