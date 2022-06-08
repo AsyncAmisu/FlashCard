@@ -11,7 +11,13 @@ import SwiftUI
 struct FlashCardApp: App {
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            RegisterView()
         }
+    }
+}
+
+struct FlashCardApp_Previews:PreviewProvider {
+    static var previews: some View {
+        RegisterView()
     }
 }

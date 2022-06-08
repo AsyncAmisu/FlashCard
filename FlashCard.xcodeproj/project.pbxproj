@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57785D7C285098A1002AF3CE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D7B285098A1002AF3CE /* Profile.swift */; };
+		57785D7E285098AB002AF3CE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D7D285098AB002AF3CE /* Settings.swift */; };
+		57785D80285098B4002AF3CE /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D7F285098B4002AF3CE /* UserManager.swift */; };
+		57785D84285099FE002AF3CE /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D83285099FE002AF3CE /* WelcomeBackgroundImage.swift */; };
+		57785D8628509AA2002AF3CE /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D8528509AA2002AF3CE /* LogoImage.swift */; };
+		57785D8828509B82002AF3CE /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D8728509B82002AF3CE /* WelcomeMessageView.swift */; };
+		57785D8A28509D81002AF3CE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57785D8928509D81002AF3CE /* RegisterView.swift */; };
 		579D4DFC284BC70C008E3B12 /* FlashCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D4DFB284BC70C008E3B12 /* FlashCardApp.swift */; };
-		579D4DFE284BC70C008E3B12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D4DFD284BC70C008E3B12 /* ContentView.swift */; };
 		579D4E00284BC70D008E3B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579D4DFF284BC70D008E3B12 /* Assets.xcassets */; };
 		579D4E03284BC70D008E3B12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579D4E02284BC70D008E3B12 /* Preview Assets.xcassets */; };
 		579D4E0C284BE45B008E3B12 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D4E0B284BE45B008E3B12 /* WelcomeView.swift */; };
@@ -16,9 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57785D7B285098A1002AF3CE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		57785D7D285098AB002AF3CE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		57785D7F285098B4002AF3CE /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		57785D83285099FE002AF3CE /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
+		57785D8528509AA2002AF3CE /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		57785D8728509B82002AF3CE /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
+		57785D8928509D81002AF3CE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		579D4DF8284BC70C008E3B12 /* FlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579D4DFB284BC70C008E3B12 /* FlashCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardApp.swift; sourceTree = "<group>"; };
-		579D4DFD284BC70C008E3B12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		579D4DFF284BC70D008E3B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579D4E02284BC70D008E3B12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		579D4E0B284BE45B008E3B12 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -36,6 +48,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57785D7428509858002AF3CE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				57785D8128509991002AF3CE /* Profile */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		57785D8128509991002AF3CE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				57785D7B285098A1002AF3CE /* Profile.swift */,
+				57785D7D285098AB002AF3CE /* Settings.swift */,
+				57785D7F285098B4002AF3CE /* UserManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		57785D82285099DF002AF3CE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				57785D83285099FE002AF3CE /* WelcomeBackgroundImage.swift */,
+				57785D8528509AA2002AF3CE /* LogoImage.swift */,
+				57785D8728509B82002AF3CE /* WelcomeMessageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		579D4DEF284BC70C008E3B12 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +95,10 @@
 		579D4DFA284BC70C008E3B12 /* FlashCard */ = {
 			isa = PBXGroup;
 			children = (
+				57785D7428509858002AF3CE /* Shared */,
 				579D4E0A284BE40F008E3B12 /* Welcome */,
 				579D4E09284BE3ED008E3B12 /* Resources */,
 				579D4DFB284BC70C008E3B12 /* FlashCardApp.swift */,
-				579D4DFD284BC70C008E3B12 /* ContentView.swift */,
 				579D4E01284BC70D008E3B12 /* Preview Content */,
 			);
 			path = FlashCard;
@@ -83,8 +123,10 @@
 		579D4E0A284BE40F008E3B12 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				57785D82285099DF002AF3CE /* Components */,
 				579D4E0B284BE45B008E3B12 /* WelcomeView.swift */,
 				57F3D5D8284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift */,
+				57785D8928509D81002AF3CE /* RegisterView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -159,9 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579D4DFE284BC70C008E3B12 /* ContentView.swift in Sources */,
+				57785D8A28509D81002AF3CE /* RegisterView.swift in Sources */,
+				57785D7E285098AB002AF3CE /* Settings.swift in Sources */,
+				57785D80285098B4002AF3CE /* UserManager.swift in Sources */,
+				57785D8828509B82002AF3CE /* WelcomeMessageView.swift in Sources */,
+				57785D8628509AA2002AF3CE /* LogoImage.swift in Sources */,
+				57785D7C285098A1002AF3CE /* Profile.swift in Sources */,
 				579D4E0C284BE45B008E3B12 /* WelcomeView.swift in Sources */,
 				57F3D5D9284E7F69001E4A68 /* HorizontallyAlignedLabelStyle.swift in Sources */,
+				57785D84285099FE002AF3CE /* WelcomeBackgroundImage.swift in Sources */,
 				579D4DFC284BC70C008E3B12 /* FlashCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
