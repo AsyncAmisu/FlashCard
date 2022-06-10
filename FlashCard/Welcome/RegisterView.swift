@@ -20,12 +20,28 @@ struct RegisterView: View {
                 .focused($nameFieldFocused, equals: true)
                 .submitLabel(.done)
                 .bordered()
+            HStack {
+                Spacer()
+                Text("\(userManager.profile.name.count)")
+                    .font(.caption)
+                    .foregroundColor(userManager.isUserNameValid() ? .green : .red)
+                    .padding(.trailing)
+            }
+            .padding(.bottom)
             Button {
                 registerUser()
             } label: {
-                Text("OK")
+                HStack {
+                    Image(systemName: "checkmark")
+                        .resizable()
+                        .frame(width: 16, height: 16, alignment: .center)
+                    Text("OK")
+                        .font(.body)
+                        .bold()
+                }
             }
-
+            .disabled(!userManager.isUserNameValid())
+            .bordered()
             Spacer()
         }
         .background(WelcomeBackgroundImage())
