@@ -24,8 +24,9 @@ struct FlashCardApp: App {
     }
 }
 
-struct FlashCardApp_Previews:PreviewProvider {
+struct FlashCardApp_Previews: PreviewProvider {
     static var previews: some View {
         RegisterView()
+            .environmentObject(UserManager())
     }
 }
