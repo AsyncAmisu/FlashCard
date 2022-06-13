@@ -9,17 +9,14 @@ import SwiftUI
 
 struct ChallengeView: View {
     var body: some View {
-        HStack {
-            Text("A great and warm welcome to Kuchi")
-                .layoutPriority(-1)
-                .background(Color.red)
-            Text("A great and warm welcome to Kuchi")
-                .background(Color.red)
-                .layoutPriority(1)
-            Text("A great and warm welcome to Kuchi")
-                .background(Color.red)
+        HStack(alignment: .lastTextBaseline) {
+            Text("welcome to FlashCard").font(.caption)
+            Text("welcome to FlashCard").font(.title)
+            Button {
+            } label: {
+                Text("OK").font(.body)
+            }
         }
-        .background(.yellow)
     }
 }
 
