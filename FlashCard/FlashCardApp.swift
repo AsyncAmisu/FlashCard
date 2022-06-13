@@ -20,12 +20,16 @@ struct FlashCardApp: App {
         WindowGroup {
             RegisterView()
                 .environmentObject(userManager)
+//            StarterView()
+//                .environmentObject(userManager)
         }
     }
 }
 
 struct FlashCardApp_Previews: PreviewProvider {
     static var previews: some View {
+//        StarterView()
+//            .environmentObject(UserManager())
         RegisterView()
             .environmentObject(UserManager())
     }

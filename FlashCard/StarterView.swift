@@ -17,6 +17,7 @@ struct StarterView: View {
       WelcomeView()
     } else {
       RegisterView()
+            .environmentObject(userViewModel)
     }
   }
 }
