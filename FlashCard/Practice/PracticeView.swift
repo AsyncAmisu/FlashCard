@@ -15,7 +15,7 @@ struct PracticeView: View {
   @ViewBuilder
   var body: some View {
     if challengeTest != nil {
-      ChallengeView()
+      ChallengeView(challengeTest: challengeTest!)
     } else {
       CongratulationsView(userName: userName)
     }
@@ -23,7 +23,9 @@ struct PracticeView: View {
 }
 
 struct PracticeView_Previews: PreviewProvider {
+    
   @State static var numberOfAnswered: Int = 0
+    
   static let challengeTest = ChallengeTest(
     challenge: Challenge(question: "おねがい　します", pronunciation: "Onegai shimasu", answer: "Please"),
     answers: ["Thank you", "Hello", "Goodbye"]
